@@ -20,6 +20,8 @@ export default class Authentication extends Component {
   }
   
   render() {
+    let selected = this.state.isSelected;
+    console.log(selected);
     
     return (
       <section className="authentication">
@@ -28,7 +30,6 @@ export default class Authentication extends Component {
             <div className="btn sing-in" onClick={this.handleSingInClick}>sing in</div>
             <div className="btn sing-up" onClick={this.handleSingupClick}>sing up</div>
           </div>
-
           <div className="sing-in-data">
             <input type="email" name="email" placeholder="email"/>
             <input type="password" name="password" placeholder="password"/>
