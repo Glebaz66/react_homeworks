@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+section {
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.authentication {
+    display: flex;
+    margin: 30px auto 0;
+    justify-content: center;
+}
+.auth-form {
+    width: auto;
+    outline: 1px solid salmon;
+    text-align: center;
+}
+.sing {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.sing-in,
+.sing-up {
+    background-color: rgb(206, 206, 206);
+    border: 1px solid #030303;
+    margin: 1px;
+}
+.sing-in:hover,
+.sing-up:hover {
+    background-color: rgb(112, 112, 112);
+    cursor: pointer;
+}
+.btn {
+    padding: 15px 50px;
+    
+}
+.sing-in-data,
+.sing-up-data {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 15px;
+}
+input {
+    margin-bottom: 5px;
+}
+.sing-in-data input,
+.sing-up-data input{
+    width: 99%;
+    align-self: center;
+
+}
+.submit {
+    margin-bottom: 15px;
+}
